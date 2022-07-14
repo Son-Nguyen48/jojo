@@ -10,7 +10,7 @@ html {
 
 body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
+  background-size: 400% 800%;
   animation: gradient 15s ease infinite;
   height: 100vh;
   font-family: "Courier New", Courier, monospace;
@@ -33,6 +33,9 @@ header .company-name {
   align-self: center;
 }
 
+nav {
+  margin-bottom: 2rem;
+}
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -61,6 +64,31 @@ main article h2,
 main article p {
   padding-top: 1.2rem;
   padding-left: 2rem;
+}
+main article .step-one,
+main article .step-two,
+main article .step-three {
+  display: flex;
+  flex-direction: column;
+}
+main article .step-one img,
+main article .step-two img,
+main article .step-three img {
+  width: 40%;
+  margin-left: 2rem;
+  border-radius: 0.8rem;
+}
+main article .step-two img,
+main article .step-three img {
+  width: 100%;
+}
+main article .step-two img .new-pull-request,
+main article .step-three img .new-pull-request {
+  width: 100%;
+}
+main article .step-three .create-new-branch,
+main article .step-three .source-control {
+  width: 40%;
 }
 main form {
   flex: 0 0 30%;
