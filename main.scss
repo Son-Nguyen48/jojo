@@ -10,7 +10,7 @@ html {
 
 body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
+  background-size: 400% 800%;
   animation: gradient 15s ease infinite;
   height: 100vh;
   font-family: "Courier New", Courier, monospace;
@@ -50,6 +50,7 @@ nav {
       }
     }
   }
+  margin-bottom: 2rem;
 }
 
 main {
@@ -63,6 +64,32 @@ main {
     p {
       padding-top: 1.2rem;
       padding-left: 2rem;
+    }
+    .step-one,
+    .step-two,
+    .step-three {
+      display: flex;
+      flex-direction: column;
+      img {
+        width: 40%;
+        margin-left: 2rem;
+        border-radius: 0.8rem;
+      }
+    }
+
+    .step-two img,
+    .step-three img {
+      .new-pull-request {
+        width: 100%;
+      }
+      width: 100%;
+    }
+
+    .step-three {
+      .create-new-branch,
+      .source-control {
+        width: 40%;
+      }
     }
   }
   form {
