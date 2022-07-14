@@ -5,6 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="https://engineering.monstar-lab.com/assets/img/logo/ml-logo-grey.png"
+          alt="blank"
+        />
+      </div>
+      <h1 class="company-name">Monstar Lab</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Feature</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Footer</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h1>This is the Test Git</h1>
+        <h2>How to create a pull request</h2>
+        <p>Step by step</p>
+        <div class="step-one">
+          <h3>* Step one: Create a Repository</h3>
+          <p>- Click new repository</p>
+          <img src="./img/1.png" alt="blank" />
+          <p>- Enter your name repository</p>
+          <img src="./img/2.png" alt="blank" />
+          <p>- Scroll down and click Create Repository</p>
+          <img src="./img/3.png" alt="blank" />
+        </div>
+        <div class="step-two">
+          <h3>* Step two: Open Visual Studio Code and open a Folder</h3>
+          <p>
+            - Create any file for example, i create a html file call index.html
+          </p>
+          <p>- Then hit Ctrl + J to open terminal</p>
+          <p>- Then type folow command lines below</p>
+          <p>+ git init</p>
+          <p>+ git add .</p>
+          <p>+ git commit -m "first commit"</p>
+          <p>+ git branch -M main</p>
+          <p>
+            + git remote add origin
+            git@github.com:Son-Nguyen48/create-pull-request.git
+          </p>
+          <p>+Where is git@github.com:Son-Nguyen48/create-pull-request.git?</p>
+          <p>+Just copy here when you create your new repository</p>
+          <img src="./img/4.png" alt="" />
+          <p>+ git push -u origin main</p>
+        </div>
+        <div class="step-three">
+          <h3>* Step three: Create a branch from github website</h3>
+          <p>- Type your branch name that you want to create in here</p>
+          <img src="./img/5.png" alt="" />
+          <p>- Then click create new branch</p>
+          <img src="./img/6.png" alt="" class="create-new-branch" />
+          <p>- Then exit and reopen the Visual Studio Code</p>
+          <p>
+            - Let take a look the bottom left corner that have a word "main"
+          </p>
+          <p>- Click it and choose the branch you created before</p>
+          <p>- Now you switch to the branch you created before</p>
+          <p>- Just start code something and you'll see something like that</p>
+          <img src="./img/7.png" alt="" class="source-control" />
+          <p>- Click the source control with 3 number like the image</p>
+          <p>- Then type any message and click Commit</p>
+          <p>- Then click Sync Changes</p>
+          <p>- Anh that's it you have created a pull request<s></s></p>
+          <p>- Now Go back the github website</p>
+          <p>Here is a pull request created</p>
+          <img src="./img/8.png" alt="" class="new-pull-request" />
+        </div>
+      </article>
+      <form action="">
+        <h2>Login form</h2>
+        <label for="">
+          Your Name
+          <input type="text" placeholder="Your name" />
+        </label>
+        <label for="">
+          Your email
+          <input type="text" placeholder="Your email" />
+        </label>
+        <label for="">
+          Your password
+          <input type="text" placeholder="Your password" />
+        </label>
+        <label for="">
+          Confirm Password
+          <input type="text" placeholder="Confirm Your password" />
+        </label>
+      </form>
+    </main>
+
+    <footer>
+      <p>
+        Layout and code by NTS - Internship Frontend Developer of Monstar Lab
+        Company
+      </p>
+      <p>Golden Palace, Block C, 4 floor &copy;2022-2023</p>
+    </footer>
+  </body>
 </html>
